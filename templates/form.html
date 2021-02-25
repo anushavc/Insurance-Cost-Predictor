@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: rgb(247, 245, 240);  font-weight: bold;
+font-size: 20px;font-family: 'Quicksand', sans-serif;">
+    <form style="padding:20px;margin:0 auto;  position: absolute;background-color:#84BCB3;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);text-align:center; justify-content:center;align-items: center;" action="/result" method="post">
+        <!-- Age-->
+        <div class="form-group" style="padding: 40px;">
+            <label for="age">Age:</label>
+            <input type="number" name="age" class="form-control " id="age" placeholder="Enter Age" >
+          </div>
+        <!-- BMI-->
+          <div class="form-group"  style="padding: 40px;">
+            <label for="bmi">BMI:</label>
+            <input type="number" name="bmi" step="0.01" class="form-control" id="age" placeholder="Enter bmi" >
+          </div>
+        <!-- No of children -->
+          <div class="form-group"  style="padding: 40px;">
+            <label for="bmi">No of children:</label>
+            <input type="number" name="no_of_children" step="0.01" class="form-control" id="age" placeholder="Enter bmi" >
+          </div>
+        <!-- Gender -->
+          <div class="form-group" style="padding: 40px;">
+            <label for="exampleFormControlSelect1">Gender:</label>
+            <select class="form-control" id="exampleFormControlSelect1" name="gender">
+              <option value="0">Male</option>
+              <option value="1">Female</option>
+            </select>
+          </div>
+        <!-- Smoker -->
+          <div class="form-group" style="padding: 40px;">
+            <label for="exampleFormControlSelect1">Smoker:</label>
+            <select class="form-control" id="exampleFormControlSelect1" name="smoker">
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+            </select>
+          </div>
+        <!-- region -->
+          <div class="form-group" style="padding: 40px;">
+            <label for="exampleFormControlSelect1">Region:</label>
+            <select class="form-control" id="exampleFormControlSelect1" name="region">
+              <option value="1">Northwest</option>
+              <option value="2">Northeast</option>
+              <option value="3">Southeast</option>
+              <option value="4">Southwest</option>
+            </select>
+          </div>
+        <!-- submit -->
+        <button style="background-color:#84BCB3" type="submit" style="margin: 40px;" class="btn btn-primary">Submit</button>
+      </form>
+    
+</body>
+</html>
