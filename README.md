@@ -30,3 +30,8 @@
   * run the app.py as `python app.py`
   * The Application will then be hosted at `127.0.0.1:5000`
 
+## Possible Improvements
+  * Deploy the application on the cloud
+  * Improve the frontend UI
+ 
+
